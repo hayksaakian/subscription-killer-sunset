@@ -1,0 +1,107 @@
+/** GLOBAL STYLES FOR Subscription Killer **/
+
+.text-center {
+  text-align: center;
+}
+
+/** Same color as the logo **/
+.orange-text {
+  color: #EC7E1A;
+}
+
+.black-text {
+  color: #333333;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15.875px;
+  flex-shrink: 0;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.phone-number {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #F9F3ED;
+  min-height: 100vh;
+}
+
+/* Home page Styles */
+#app {
+  text-align: center;
+}
+
+.app-title {
+  margin-top: 50px;
+  color: #333;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.app-subtitle {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.app-subtitle em {
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.start-button {
+  padding: 15px 30px !important;
+  background: #EC7E1A;
+  color: white;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.start-button:hover {
+  background-color: #f4923b;
+  color: white;
+}
+
+.quote-container {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+  .app-subtitle {
+    font-size: 1em;
+  }
+}
